@@ -1,0 +1,35 @@
+names:
+- Alsaeuchip
+- Backside
+- BananaKick
+- CaramelCornMaple
+- Cheetos
+- CornChips
+- Gamjakkang
+- Jjanggu
+- JollyPong
+- Kkobugchip
+- Kkochgelang
+- Kkulkkwabaegi
+- KokkalCorn
+- Koncho
+- Matdongsan
+- Ogamja
+- Pocachip_Onion
+- Pocachip_Original
+- Postick
+- Saeukkang
+- Sunchip
+- Swingchip
+- Yangpaling
+- konchi
+nc: 24
+roboflow:
+  license: CC BY 4.0
+  project: snack-dlgc5-siwhv
+  url: https://app.roboflow.com/-yzlpj/snack-dlgc5-siwhv/1
+  version: 1
+  workspace: -yzlpj
+test: ../test/images
+train: ../train/images
+val: ../valid/images

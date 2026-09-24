@@ -1,8 +1,10 @@
 import cv2
+from pathlib import Path
 from ultralytics import YOLO
 
 def main():
-    model_path = "runs/detect/snack_24_species/weights/best.pt"
+    # 저장소를 어느 위치에 내려받더라도 함께 제공되는 학습 모델을 찾습니다.
+    model_path = Path(__file__).resolve().parent / "best.pt"
     print(f"🧠 초경량 24종 가중치 로드 중: {model_path}")
     model = YOLO(model_path)
 
